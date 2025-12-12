@@ -109,7 +109,7 @@ class SubscriptionUrlInfo extends ConfigEntry {
 
     // 添加 FlClash 标识参数
     final separator = baseUrl.contains('?') ? '&' : '?';
-    return '$baseUrl${separator}flag=flclash';
+    return '$baseUrl${separator}flag=clashmeta';
   }
 
   @override
