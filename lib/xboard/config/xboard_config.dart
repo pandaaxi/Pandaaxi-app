@@ -144,12 +144,12 @@ class XBoardConfig {
   
   /// 初始化模块
   /// 
-  /// [provider] 当前使用的提供商 (Flclash/Flclash)
+  /// [provider] 当前使用的提供商 (Homiefroxy/Homiefroxy)
   /// [settings] 可选的详细配置设置
   /// 
   /// 这是初始化模块的唯一方式
   static Future<void> initialize({
-    String provider = 'Flclash',
+    String provider = 'Homiefroxy',
     ConfigSettings? settings,
   }) async {
     final config = settings ?? ConfigSettings(currentProvider: provider);
@@ -371,7 +371,7 @@ class XBoardConfig {
 /// 
 /// ```dart
 /// // 1. 初始化模块（唯一的初始化方式）
-/// await XBoardConfig.initialize(provider: 'Flclash');
+/// await XBoardConfig.initialize(provider: 'Homiefroxy');
 /// 
 /// // 2. 使用公共API获取配置
 /// final panelUrl = XBoardConfig.panelUrl;

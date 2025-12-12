@@ -1,14 +1,14 @@
-display_name: Flclash
+display_name: Homiefroxy
 
 icon: ./assets/images/icon.png
 
 keywords:
-  - Flclash
+  - Homiefroxy
   - Clash
   - ClashMeta
   - Proxy
 
-generic_name: Flclash
+generic_name: Homiefroxy
 
 categories:
   - Network

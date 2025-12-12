@@ -395,6 +395,11 @@ class ConfigurationParser {
         // 将旧格式转换为新格式
         final convertedConfig = <String, dynamic>{
           'panels': {
+            'Homiefroxy': panelUrls.map((url) => {
+              'url': url.toString(),
+              'description': '从旧格式转换的面板URL',
+            }).toList(),
+            // Legacy provider key for compatibility with existing configurations.
             'Flclash': panelUrls.map((url) => {
               'url': url.toString(),
               'description': '从旧格式转换的面板URL',

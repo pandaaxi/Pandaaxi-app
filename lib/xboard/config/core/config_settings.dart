@@ -8,7 +8,7 @@ class ConfigSettings {
   final LogSettings log;
 
   const ConfigSettings({
-    this.currentProvider = 'Flclash',
+    this.currentProvider = 'Homiefroxy',
     this.remoteConfig = const RemoteConfigSettings(),
     this.subscription = const SubscriptionSettings(),
     this.log = const LogSettings(),
@@ -17,7 +17,7 @@ class ConfigSettings {
   /// 从JSON创建配置
   factory ConfigSettings.fromJson(Map<String, dynamic> json) {
     return ConfigSettings(
-      currentProvider: json['currentProvider'] as String? ?? 'Flclash',
+      currentProvider: json['currentProvider'] as String? ?? 'Homiefroxy',
       remoteConfig: RemoteConfigSettings.fromJson(
         json['remoteConfig'] as Map<String, dynamic>? ?? {}
       ),
