@@ -27,17 +27,17 @@ xboard:
   # 应用信息
   app:
     # 登录页面显示的标题
-    title: YourAppName
+    title: Homiefroxy
     
     # 登录页面显示的网站地址
-    website: example.com
+    website: Homiefroxy.com
   
   # 订阅配置
   subscription:
     # 是否优先使用加密订阅
     # true: 优先尝试加密订阅（自动启用竞速），失败后自动回退到普通订阅
     # false: 直接使用普通订阅（不使用竞速）
-    prefer_encrypt: false
+    prefer_encrypt: true
 
     # 订阅解密密钥
     # 用于解密加密订阅数据，需要与后端XBoard面板配置一致
